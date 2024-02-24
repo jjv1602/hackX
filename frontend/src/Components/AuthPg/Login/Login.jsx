@@ -3,7 +3,7 @@ import st from './Login.module.css';
 const Login = () => {
   return (
     <div>
-      Login
+      Logi
     </div>
   )
 }
