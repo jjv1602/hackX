@@ -19,6 +19,7 @@ const DocterRegistern = () => {
     <div className={st.card}>
       <div className="flex flex-column md:flex-row">
         <div className="w-full md:w-10 flex flex-column align-items-center justify-content-center gap-5 py-5">
+        Register as a Doctor
           <div className="flex flex-wrap justify-content-center align-items-center gap-2">
             <label className="w-6rem">Name</label>
             <InputText id="username" type="email" className="w-20rem" />
@@ -49,7 +50,7 @@ const DocterRegistern = () => {
           </div>
           <div className="flex flex-wrap justify-content-center align-items-center gap-2">
             <label className="w-6rem">Contact Number</label>
-            <InputMask value="ah" onChange={(e) => setValue(e.target.value)} mask="99-999999" placeholder="99-999999" />
+            <InputMask value="ah" onChange={(e) => setValue(e.target.value)} mask="99-9999999999" placeholder="+" />
           </div>
           
           <Button

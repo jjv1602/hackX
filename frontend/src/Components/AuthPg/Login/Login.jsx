@@ -20,7 +20,8 @@ const Login = () => {
           <Button
             label="Login"
             icon="pi pi-user"
-            className="w-10rem mx-auto"
+            style={{ backgroundColor: "#34b2b5" }}
+            className="w-10rem mx-auto "
           ></Button>
         </div>
         <div className="w-full md:w-5 flex flex-column align-items-center justify-content-center gap-5 py-5">
@@ -42,13 +43,13 @@ const Login = () => {
             </label>
           </div>
           <div className="w-full md:w-5 flex align-items-center justify-content-center py-5">
-          <Link to="/PatientRegister"><Button
+            <Button
               label="Sign Up"
               icon="pi pi-user-plus"
               severity="success"
-              className="w-10rem"
+              className="w-10rem bg-blue-900"
             ></Button>
-          </Link>
+
           </div>
         </div>
       </div>

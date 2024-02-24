@@ -11,13 +11,16 @@ const patientSchema = mongoose.Schema(
             required: true,
             unique: true,
         },
-        password: {
+        pwd: {
             type: String,
             required: true,
         },
         gender: {
             type: String,
             required: true
+        },
+        age: {
+            type: String
         },
         medicalReports: [{
             filename: {
