@@ -1,3 +1,9 @@
+
+
+const mongoose = require('mongoose')
+const Doc = require('./docModels');
+const Pat = require('./patientModels');
+var Schema = mongoose.Schema;
 const meetingDetails = new Schema({
     prescription: String,
     meetingTimestamp: Date,
@@ -6,10 +12,6 @@ const meetingDetails = new Schema({
     currentBp: String,
     txnId: String
 });
-
-const mongoose = require('mongoose')
-const Doc = require('./docModels');
-const Pat = require('./patientModels');
 const apnmtSchema = mongoose.Schema(
     {
         docId: {
