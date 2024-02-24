@@ -43,11 +43,7 @@ const docSchema = mongoose.Schema(
         timestamps: true,
     }
 );
-
-// userSchema.pre it is mongodb function that is before doing save operation run async function 
 docSchema.pre('save', async function (next) {
-    //    we need to check whether password is modified egs- user is RAJ he first creates pwd - 1234 but then he changes the password to 4232 so if this is modified then again need to encrypt the password
-    // else just pass to next( ) function
     if (!this.isModified('password')) {
         next();
     }
@@ -55,13 +51,8 @@ docSchema.pre('save', async function (next) {
     this.password = await bcrypt.hash(this.password, salt);
 
 })
-
-//Decrypting the password
-// it would compare the password
 docSchema.methods.matchPassword = async function (enteredPassword) {
     return await bcrypt.compare(enteredPassword, this.password);
-    // enteredPassword password entered by user
-    // this.password - password in the database stored with email
 };
 const Doc = mongoose.model('Doc', docSchema);
 module.exports = Doc;

@@ -13,7 +13,7 @@ const txnSchema = mongoose.Schema(
         },
         amt:{
             type:mongoose.Schema.Types.Number
-        }
+        },
         status:{
             type:String
         }
