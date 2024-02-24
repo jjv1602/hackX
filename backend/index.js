@@ -13,12 +13,10 @@ app.use(express.json());
 app.use('/api/users', userRoutes);
 app.use('/api/apnmt', apnmtRoutes);
 app.use('/api/common',commonRoutes);
-
 app.get("/", (req, res) => {
   res.send("API is running..");
 });
 
-//   ------------------------
 const { errorHandler, notFound } = require('./middlewares/errorMiddlewares');
 app.use(notFound)
 app.use(errorHandler)
