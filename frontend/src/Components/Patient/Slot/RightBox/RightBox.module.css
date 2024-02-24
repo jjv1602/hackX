@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+.par{
+    background-color: white;
+    min-height: 50vh;
+    text-align: center;
+    padding-left: 4%;
+}
+
+.cal{
+
+}
+
+/* Time Picker */
+.itemtime{
+    font-family: 'Inter', sans-serif;
+    font-size: 2vh;
+    font-weight: bold;
+    
+}
+
+.submit{
+    display: flex;
+    gap:1vw;
+    justify-content: space-around;
+
+}
+
+#sos_btn{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    color:white;
+}
+
+#sos_btn:hover{
+    box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.1);
+}

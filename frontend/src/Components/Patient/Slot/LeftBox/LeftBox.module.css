@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+.par{
+    background-color: white;
+    padding: 4%;
+    border: 2px solid #E7E7E7;   
+    border-top:0;
+    border-bottom: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #E7E7E7;
+}
+.docgdpar{
+    display: grid;
+    grid-template-rows: 0.7fr 0.3fr;
+    grid-template-columns: auto ;
+}
+.docgd{
+    background:url("./Header.jpg");
+    background-repeat: no-repeat;
+    padding-left: 2%;
+    padding: 3%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.docname{
+    font-family: 'Inter', sans-serif;
+    font-size: 4vh;
+    color: #043c74;
+    font-weight: bold;
+}
+.desc{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 43vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+.desc1{
+    border: 2px solid #E7E7E7;
+    border-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+.desc2{
+    border: 2px solid #E7E7E7;
+    border-top: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;    
+}
+
+.docdesc{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.faqs{
+    font-family: 'Poppins', sans-serif;
+}
+#faqsheading{
+    font-family: 'Inter', sans-serif;
+    font-size: 3.5vh;
+    color: #043c74;
+    font-weight: bold;
+}
+.faqchild{
+    padding-left: 3%;
+}

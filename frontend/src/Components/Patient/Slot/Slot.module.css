@@ -1,0 +1,10 @@
+.par{
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    min-height: 100vh;
+    padding-left: 3%;
+    padding-right: 3%;
+    /* background-color: #043c74; */
+    border-left: solid 4vw #043c74;
+    border-right: solid 4vw #34b4b4;
+}
