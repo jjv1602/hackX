@@ -8,7 +8,7 @@ const registerDoc = asyncHandler(async (req, res) => {
 
   const { name, email, password, pic, speciality, intro, yoe } = req.body;
   const userExists = await Doc.findOne({ email });
-  
+
   if (userExists) {
     res.status(404);
     throw new Error("User already exists");
@@ -39,18 +39,16 @@ const registerDoc = asyncHandler(async (req, res) => {
 
 const registerPat = asyncHandler(async (req, res) => {
 
-  const { name, email, password, gender, bloodGroup, age } = req.body;
+  const { name, email, pwd, gender, bloodGroup, age } = req.body;
 
-  const userExists = await User.findOne({ email });
+  const userExists = await Pat.findOne({ email });
 
   if (userExists) {
     res.status(404);
     throw new Error("User already exists");
   }
   const user = await Pat.create({
-    name,
-    email,
-    password, gender, bloodGroup, age
+    name, email,pwd, gender, bloodGroup, age
   });
   if (user) {
     res.status(201).json({

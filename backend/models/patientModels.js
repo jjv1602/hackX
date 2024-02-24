@@ -19,6 +19,9 @@ const patientSchema = mongoose.Schema(
             type: String,
             required: true
         },
+        age: {
+            type: String
+        },
         medicalReports: [{
             filename: {
                 type: String,
