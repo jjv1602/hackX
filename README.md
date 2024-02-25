@@ -53,8 +53,12 @@ To get a local copy up and running, please follow these simple steps.
  To run the program
   ```sh
    streamlit run file_name 
-   ```
+  ```
 
+## Project Images 
 
+  <img src="https://github.com/jjv1602/hackX/blob/main/Images/img2.png" width="80%" height="40%">
+  <img src="/Images/img2.png" width="80%" height="400">
+  <img src="/Images/img3.png" width="80%" height="400">
 
  
