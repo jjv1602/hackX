@@ -7,7 +7,9 @@ import DocterRegistern from "./Components/AuthPg/Register/DocterRegister";
 import PatientRegister from "./Components/AuthPg/Register/PatientRegister";
 import store from './store/store';
 import { Provider } from 'react-redux'
-import Homepg from "./Components/HomePg/Homepg";
+
+import { ChakraProvider } from '@chakra-ui/react'
+import Design from './Components/Doctor/Design/Design';
 function App() {
   const [count, setCount] = useState(0);
 
@@ -15,10 +17,10 @@ function App() {
     <Provider store={store}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Homepg/>} />
           <Route path="/Login" element={<Login />} />
           <Route path="/PatientRegister" element={<PatientRegister />} />
           <Route path="/DoctorRegister" element={<DocterRegistern />} />
+          <Route path="/meeting-pg/:pid" element={<ChakraProvider><Design /></ChakraProvider>} />
 
           {/* <Route path="/slot" element={<Slot/>} /> */}
         </Routes>

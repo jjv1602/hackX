@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+.parentpx{
+    width: 100%;
+    padding-top: 6%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.tablist{
+    font-family: 'Mukta', sans-serif;
+}
+#hr{
+    /* border: 1.5px solid rgb(179, 176, 176); */
+    margin-top: 2vh;
+    border: 1px solid #D4D4D4;
+    width: 100%;
+}
+
+.medicinescard{
+    overflow-y: auto;
+    height: 70vh;
+}

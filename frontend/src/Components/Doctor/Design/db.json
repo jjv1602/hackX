@@ -1,0 +1,82 @@
+{
+  "chats": [
+    {
+      "id": 1,
+      "senderid": 2,
+      "name": "Dr Raj",
+      "msg": "Hi how are you now?",
+      "sender_dr": true
+    },
+    {
+      "id": 6,
+      "senderid": 6,
+      "name": "Dr Suresh",
+      "msg": "asda",
+      "sender_dr": true
+    },
+    {
+      "id": 19,
+      "senderid": 6,
+      "name": "Dr Suresh",
+      "msg": "asda",
+      "sender_dr": true
+    },
+    {
+      "id": "3r1ry",
+      "senderid": 6,
+      "name": "Patient Raju ",
+      "msg": "qweqr",
+      "sender_dr": false
+    },
+    {
+      "id": "3r1ry",
+      "senderid": 6,
+      "name": "Patient Raju ",
+      "msg": "qweqr",
+      "sender_dr": false
+    },
+    
+    {
+      "id": "3r1ry",
+      "senderid": 6,
+      "name": "Patient Raju ",
+      "msg": "qweqr",
+      "sender_dr": false
+    },
+    {
+      "id": "3r1ry",
+      "senderid": 6,
+      "name": "Patient Raju ",
+      "msg": "qweqr",
+      "sender_dr": false
+    }
+    ,
+    
+    {
+      "id": "3r1ry",
+      "senderid": 6,
+      "name": "Patient Raju ",
+      "msg": "qweqr",
+      "sender_dr": false
+    },
+    {
+      "id": "3r1ry",
+      "senderid": 6,
+      "name": "Patient Raju ",
+      "msg": "qweqr",
+      "sender_dr": false
+    }
+    
+  ],
+  "medicines":[
+      {
+        "id":1,
+        "medicine_name":"",
+        "duration":10,
+        "mor":true,
+        "aft":true,
+        "nght":false,
+        "quantity":"1/2 spoon"
+      }
+  ]
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.par{
+    background-color: #F0FAFF;
+    min-height: 10vh;
+    margin-top: 4%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap:2vw;
+
+}
+.medname{
+    color:#34B4B4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+#hrbtm{
+    border: 1px solid #CBEAFE;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.dot{
+    height: 5px;
+    width: 5px;
+    background-color:#3CEF7E;
+    border-radius: 50%;
+    display: inline-block;
+}
+#dur{
+    color: #A5A5A5;
+    font-size: 12px;    
+}
+
+/* Timing box */
+.timingbox{
+    border:2px solid #BCD8EE;
+    border-radius: 0.5rem;
+    margin-top: 1%;
+
+}
+#tm_head{
+    color: #7D7D7D;
+    margin-left: 3%;
+    font-size: 12px;
+}
+
+.title{
+    margin-left: 5%;
+    font-size: 11px; 
+    display: flex;
+    align-items: center;
+    gap:1vw;
+    color: #5A7FD1;
+}
+
+.dotflex{
+    display: flex;
+    gap:0.5vw;
+}
+.dotf{
+    height: 3px;
+    width: 3px;
+    background-color:#9E9E9E;
+    border-radius: 50%;
+    display: inline-block;
+}
+

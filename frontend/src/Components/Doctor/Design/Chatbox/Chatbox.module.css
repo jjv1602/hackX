@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+.parent {
+    position: relative;
+
+}
+
+/* .box{
+    display: flex;
+    margin-bottom: 5vh;
+    height: 5vh;
+    background-color: #B9F5D0;
+} */
+.You_msg {
+    display: flex;
+    gap:0.2rem;
+    margin-bottom: 2vh;
+    border-radius: 3rem;
+
+}
+
+.sender_msg {
+    display: flex;
+    margin-bottom: 2vh;
+    border-radius: 3rem;
+
+}
+
+.msg {
+    border: 1px solid #81B9FF;
+    width: 80%;
+    margin-left: 5%;
+    font-size: 2vh;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+    padding-left: 2vh;
+    border-top-left-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+    color: #31619E;
+    border-radius: 50px;
+    background: #fcfcfd;
+    box-shadow: -5px 5px 10px #e0e0e1,
+        5px -5px 10px #ffffff;
+
+}
+
+.msgd {
+    background-color: #DBEBFF;
+    width: 70%;
+    margin-left: 20%;
+    font-family: 'Kanit', sans-serif;
+    font-size: 2vh;
+    font-weight: bolder;
+    padding-left: 2vh;
+    border-top-left-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+    color: #31619E;
+}
+
+.msg_header {
+    font-size: 2vh;
+    display: block;
+    font-weight: bolder;
+    color: rgb(16, 138, 97);
+}
+
+.msg:before {
+    content: "";
+    position: absolute;
+    left: 38px;
+    top: 6%;
+    /* border-width: 10px;
+    border-style: solid;
+    border: 2px solid #31619E;
+    height: 10px;
+  width: 15px;
+  border-top-left-radius: 25px;
+  box-shadow: 2px 5px 0 0 #ffffff; This is where the magic happens! */
+}
+
+.msgd:before {
+    content: "";
+    position: absolute;
+    right: 12px;
+    top: 0%;
+    border-width: 20px;
+    border-style: solid;
+    border-color: #DBEBFF transparent transparent transparent;
+}

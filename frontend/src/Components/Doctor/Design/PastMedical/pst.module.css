@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+.pstpar{
+   position: relative; 
+   height: 90vh;
+   padding: 3%;
+   width: 100%;
+}
+
+
+.box{
+    position: absolute;
+    bottom:20px;
+    width: 92%;
+    background-color: #f2f7fe;
+    text-align: center;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #6799FF;
+    border-style: dotted;
+    border-radius: 2rem;
+
+}
+
+.imgheading{
+    color:#6799FF;
+    font-size: 14px;
+    font-weight: bold;
+}
+.supported{
+    color:#6799FF;
+    font-size: 12px;
+}

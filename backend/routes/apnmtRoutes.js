@@ -4,7 +4,7 @@ const { createApnmt, getMedicine, postMedicine, fetchReports } = require('../Con
 const router=express.Router()
 
 
-router.route('/create-apnmt').get(createApnmt); 
+router.route('/create-apnmt').post(createApnmt); 
 
 router.route('/get-medicine').get(getMedicine);
 router.route('/post-medicine').post(postMedicine);

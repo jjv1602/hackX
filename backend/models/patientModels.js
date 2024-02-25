@@ -33,10 +33,13 @@ const patientSchema = mongoose.Schema(
             }
         }],
         medicines: [{
-            name: { type: String },
-            quantity: { type: String },
-        }
-        ],
+            medname: { type: String },
+            qnt: { type: String },
+            dur:{type:String},
+            mor:{type:Boolean},
+            aft:{type:Boolean},
+            nght:{type:Boolean}
+        }],
         bloodGrp: {
             type: String
         }
