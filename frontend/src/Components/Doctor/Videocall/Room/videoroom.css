@@ -1,0 +1,46 @@
+.video_box{
+    border-radius: 3rem;
+}
+.btnorder{
+    position: relative;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    /* height: 10vh; */
+    top:-12vh;
+    width:100%;
+    gap:3rem;
+
+
+}
+
+.btn23{
+    border-radius: 3rem;
+    background-color: rgba(90,99,103,255);
+    opacity: 0.5;
+    color: aliceblue;
+    height:8vh;
+    width:4vh;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+    
+}
+
+.btn_leave{
+    color: white;
+    border-radius: 3rem;
+    background-color: red;
+    color: aliceblue;
+    aspect-ratio: 1/1;
+    height:12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+    
+}

@@ -20,18 +20,15 @@ const getMedicine = async (req, res) => {
 
 const postMedicine = async (req, res) => {
     try {
-        const { patientId, name, quantity } = req.body;
-
-        const patient = await Pat.findById(patientId);
+        const { pid,medname,dur,qnt,mor,aft,nght } = req.body;
+        const patient = await Pat.findById(pid);
 
         if (!patient) {
             return res.status(404).json({ message: "Patient not found" });
         }
 
-        patient.medicines.push({ name, quantity });
-
+        patient.medicines.push({ medname,dur,qnt,mor,aft,nght });
         await patient.save();
-
         res.status(201).json({ message: "Medicine added successfully", medicines: patient.medicines });
     } catch (error) {
         console.error("Error adding medicine:", error);
