@@ -18,3 +18,10 @@
     height: 80vh;
     /* background-color: #f4f5f5; */
 }
+
+.medCard{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
