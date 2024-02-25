@@ -60,7 +60,7 @@ const Navbar = () => {
           </div>
         </Link>
 
-        <Link to="/medicnes" className={st.a}>
+        <Link to="/medicies" className={st.a}>
           <div
             className={
               activeItem === "Cart" ? `${st.actnavbtn} active` : `${st.navbtn}`
