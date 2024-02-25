@@ -1,0 +1,27 @@
+.body{
+    display:grid;
+    grid-template-columns: 20vw 80vw;
+    padding: 0;
+    margin: 0   ;
+
+}
+.right{
+    height:100vh;
+    /* background-color: aqua ; */
+}
+
+.upperbx{
+    height: 16vh;
+    /* background-color: aquamarine; */
+}
+.downbx{
+    height: 80vh;
+    /* background-color: #f4f5f5; */
+}
+
+.medCard{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

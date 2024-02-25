@@ -1,0 +1,30 @@
+.mainCards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+}
+.circularlandscape {
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.circularlandscape img {
+  width: auto;
+  height: 100%;
+  /* margin-left: -50px; */
+}
+.card{
+    padding: 10px;
+}
+
+.cardNew{
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    flex-direction: column;
+}
